@@ -1,0 +1,27 @@
+1.  git config --global user.name "Your Name"
+2.  git config --global user.email "your_email@example.com"
+3.  git init
+4.  git add .
+5.  git status
+6.  git commit -m "commit messseage"
+7.  git branch -m master                                                   ---to set branch.
+8.  git remote add origin <repo-url>
+9.  git push -u origin master or git push -f origin msater                 --if not pushing and showing msge like git pull.
+10. git remote -v                                                          ---to check which repo link connect to localy.
+11. git remote set-url origin <new-url>                                    -----to coonect new repo to local.
+12. git branch                                                             ---to check available branches.
+13. git branch <branch-name>                                               ---to creat new branch.
+14. git checkout <branch-name>                                             ---to change branch.
+15. git branch  -d <branch-name>                                           ---to delete barnch.
+16. git pull origin master --allow-unrelated-histories                     -- when push command is not working in new dir.
+17. git pull --rebase origin master                 -----to pull central repository changes and after that push new data with pulled data.
+18. git revert comit id                             -----to revert commit.
+
+GIT-NOTE1:  dire1/dire2/file1  if we want push dire2 , so come in direc1 and run git init, add commit ,then push.
+
+NOTE2:  dire1/direc2/file1 file2 ,file3  if we want to ignore file2,file3 form direct2 and push direc1,so come in direc1                                                                                                                                               Vim .gitignore adnd add file2,file3 within .gitignore file then run git add ,commit,push from dire1 
+
+NOTE3: if we are pushiing code on git-hub , git push -u origin master, then error come and sat git pull ,then run git pull,then git add .,
+then git commit -m "" ,then push will be succesfull
+
+NOTE.4: i want to delete some folder from git-hub repository, so use git clone command then repository will clone to your local then go in that directory make changes ,then git add . ,git 
